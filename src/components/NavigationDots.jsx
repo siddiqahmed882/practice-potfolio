@@ -10,7 +10,9 @@ const NavigationDots = ({ active }) => {
 					className="app__navigation-dot"
 					style={active === item ? { backgroundColor: '#313bac' } : {}}
 					aria-label={`move to ${item} section`}
-				/>
+				>
+					{' '}
+				</a>
 			))}
 		</div>
 	);
