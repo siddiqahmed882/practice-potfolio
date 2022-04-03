@@ -36,7 +36,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import emptySvg from '../assets/nothing-to-show.svg';
 
-export default {
+const images = {
   email,
   mobile,
   api,
@@ -72,3 +72,5 @@ export default {
   spotify,
   emptySvg
 };
+
+export default images;
